@@ -1,0 +1,200 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+#top
+{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 4px 30px;
+    text-align: center;
+}
+
+#top
+    div a 
+    { 
+        color: white;
+        text-decoration: none;
+    }
+
+#first
+{
+    flex: 3;
+}
+
+#secound
+{
+    flex: 1;
+}
+
+#secound .fa
+{
+    padding: 3px 10px;
+    border: 1px solid gray;
+}
+
+
+/* Nav css Start */
+
+#nav
+{
+    display: flex;
+    padding: 9px;
+    text-align: center; 
+}
+
+#logo
+{
+    flex: 1;
+}
+
+#menu
+{
+    flex: 3; 
+}
+
+#menu a
+{
+    padding: 4px;
+    text-decoration: none;
+}
+
+#menu .fa
+{
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#Banner
+{
+    width: 100%;
+    background-image: url("https://cdn.mos.cms.futurecdn.net/39cDAaw2RBsSMsmEw8R3s6.jpg");
+    background-size: 100% 100%;
+    color:  white;
+}
+
+#sprade-color
+{
+    padding: 200px;
+    text-align: center;
+    background-color: rgba(8,8,8,0.6)
+}
+
+#sprade-color h1
+{
+    font-size: 50px;
+
+}
+
+#sprade-color button
+{
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+#a
+{
+    background-color: lightgreen;
+  
+}
+
+#b
+{
+    background-color:rgb(32, 30, 31);
+    color: white;
+    border: 1px solid white;
+
+}
+
+body
+{
+    margin-bottom: 300px;
+}
+
+#bottom
+{
+    padding: 12px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#bottom input, #bottom button
+{
+    padding: 7px 10px;
+}
+
+#bottom label, #bottom span
+{
+    color: white;    
+}
+
+#images
+{
+    display: flex;
+}
+
+figure
+{
+    flex: 1;
+    margin: 4px;
+    background-color: rgb(241, 241, 153);
+    padding: 8px;
+}
+
+figure:hover
+{
+    border: 3px solid teal;
+}
+
+#icon{
+    background-image: url("https://www.gujarattourism.com/content/dam/gujrattourism/images/heritage-sites/laxmi-vilas-palace/Laxmi-Vilas-Palace-Banner1.jpg");
+    background-size: 100% 100%;
+    margin: 30px 0px;
+}
+#color_sp{
+    background-color: rgba(8, 8, 8, 0.4);
+    color: antiquewhite;
+    padding: 50px;
+}
+
+#allicon{
+    display: flex;
+    text-align: center;
+}
+
+#allicon div{
+    flex: 1;
+}
+#allicon div .fa{
+    font-size: 50px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+#allicon div .fa:hover{
+    color: lightgreen;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#happy{
+    padding: 5px;
+}
+
+#happy_clients{
+    display: flex;
+}
+
+#happy_clients div{
+    flex: 1;
+    border: 2px solid lightgray;
+    padding: 5px;
+    margin: 2px;
+}
+#happy_clients div:hover{
+    border-top: 7px solid cyan;
+}
